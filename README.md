@@ -20,4 +20,4 @@ I am a highly competent IT professional with a proven track record in Full stack
 - Email: aadityajain.dev@protonmail.com
 
 ### PS: I have moved to [Gitlab](https://gitlab.com/aadityajain-dev/)
-[![Header](https://raw.githubusercontent.com/AadityaJain-Dev/AadityaJain-Dev.github.io/master/img/moved%20to%20www.aadityajain.dev.png "Header")](https://www.aadityajain.dev/)
+[![Header](https://raw.githubusercontent.com/AadityaJain-Dev/AadityaJain-Dev.github.io/master/img/moved%20to%20www.aadityajain.dev.png "Header")](https://gitlab.com/aadityajain-dev/)
