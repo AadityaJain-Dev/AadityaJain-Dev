@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta
+            content="width=device-width, initial-scale=1, maximum-scale=5"
+            name="viewport"
+        />
+        <title>
+            Aditya Jain - Best Full Stack MERN, MEVN Developer - NodeJS React
+            Vue Indore
+        </title>
+
+        <!-- Search Engine -->
+        <meta
+            name="description"
+            content="I am a highly competent IT professional with a proven track record in Full stack development, networking & cyber security. I am eager to be challenged in order to grow and further improve my skills. Aditya Jain - Best Full Stack MERN & MEVN Developer, Indore - Aaditya Jain Node React programmer"
+        />
+        <meta
+            name="image"
+            content="https://www.aadityajain.dev//img/Aditya Jain - Aaditya Jain Personal Website.png"
+        />
+        <!-- Schema.org for Google -->
+        <meta
+            itemprop="name"
+            content="Aditya Jain - Full Stack MERN & MEVN Developer, Indore - Cyber Security Researcher"
+        />
+        <meta
+            itemprop="description"
+            content="I am a highly competent IT professional with a proven track record in Full stack development, networking & cyber security. I am eager to be challenged in order to grow and further improve my skills. Aditya Jain - Best Full Stack MERN & MEVN Developer, Indore - Aaditya Jain Node React programmer"
+        />
+        <meta
+            itemprop="image"
+            content="https://www.aadityajain.dev//img/Aditya Jain - Aaditya Jain Personal Website.png"
+        />
+        <!-- Twitter -->
+        <meta name="twitter:card" content="summary" />
+        <meta
+            name="twitter:title"
+            content="Aditya Jain - Full Stack MERN & MEVN Developer, Indore - Cyber Security Researcher"
+        />
+        <meta
+            name="twitter:description"
+            content="I am a highly competent IT professional with a proven track record in Full stack development, networking & cyber security. I am eager to be challenged in order to grow and further improve my skills. Aditya Jain - Best Full Stack MERN & MEVN Developer, Indore - Aaditya Jain Node React programmer"
+        />
+        <meta name="twitter:site" content="@AadityaJain_dev" />
+        <meta name="twitter:creator" content="@AadityaJain_dev" />
+        <meta
+            name="twitter:image:src"
+            content="https://www.aadityajain.dev//img/Aditya Jain - Aaditya Jain Personal Website.png"
+        />
+        <!-- Open Graph general (Facebook, Pinterest & Google+) -->
+        <meta
+            name="og:title"
+            content="Aditya Jain - Full Stack MERN & MEVN Developer, Indore - Cyber Security Researcher"
+        />
+        <meta
+            name="og:description"
+            content="I am a highly competent IT professional with a proven track record in Full stack development, networking & cyber security. I am eager to be challenged in order to grow and further improve my skills. Aditya Jain - Best Full Stack MERN & MEVN Developer, Indore - Aaditya Jain Node React programmer"
+        />
+        <meta
+            name="og:image"
+            content="https://www.aadityajain.dev//img/Aditya Jain - Aaditya Jain Personal Website.png"
+        />
+        <meta name="og:url" content="https://www.aadityajain.dev//" />
+        <meta
+            name="og:site_name"
+            content="Aditya Jain - Full Stack MERN & MEVN Developer, Indore - Cyber Security Researcher"
+        />
+        <meta name="og:locale" content="en_IN" />
+        <meta name="og:type" content="website" />
+        <!-- Chrome, Firefox OS and Opera -->
+        <meta content="#0089ff" name="theme-color" />
+        <!-- Windows Phone -->
+        <meta content="#0089ff" name="msapplication-navbutton-color" />
+        <link
+            href="https://www.aadityajain.dev//img/favicon.png"
+            rel="icon"
+            type="image/x-icon"
+        />
+
+        <link rel="manifest" href="/manifest.json" />
+        <link rel="apple-touch-icon" href="/icons/icon-192x192.png" />
+
+        <!-- Google fonts-->
+        <!-- connect to domain of font files -->
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+        <!-- optionally increase loading priority -->
+        <link
+            rel="preload"
+            as="style"
+            href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700&display=swap"
+        />
+
+        <!-- async CSS -->
+        <link
+            rel="stylesheet"
+            media="print"
+            onload="this.onload=null;this.removeAttribute('media');"
+            href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700&display=swap"
+        />
+
+        <!-- no-JS fallback -->
+        <noscript>
+            <link
+                rel="stylesheet"
+                href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700&display=swap"
+            />
+        </noscript>
+
+        <!-- optionally increase loading priority -->
+        <link
+            rel="preload"
+            as="style"
+            href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i&display=swap"
+        />
+
+        <!-- async CSS -->
+        <link
+            rel="stylesheet"
+            media="print"
+            onload="this.onload=null;this.removeAttribute('media');"
+            href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i&display=swap"
+        />
+
+        <!-- no-JS fallback -->
+        <noscript>
+            <link
+                rel="stylesheet"
+                href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i&display=swap"
+            />
+        </noscript>
+
+        <script>
+            // If `prefers-color-scheme` is not supported, fall back to light mode.
+            // In this case, light.css will be downloaded with `highest` priority.
+            if (
+                window.matchMedia('(prefers-color-scheme: dark)').media ===
+                'not all'
+            ) {
+                document.documentElement.style.display = 'none';
+                document.head.insertAdjacentHTML(
+                    'beforeend',
+                    '<link rel="stylesheet" href="/css/light.css" onload="document.documentElement.style.display = \'\'">'
+                );
+            }
+        </script>
+        <!--
+            Conditionally either load the light or the dark stylesheet. The matching file
+            will be downloaded with `highest`, the non-matching file with `lowest`
+            priority. If the browser doesn't support `prefers-color-scheme`, the media
+            query is unknown and the files are downloaded with `lowest` priority (but
+            above I already force `highest` priority for my default light experience).
+          -->
+        <link
+            rel="stylesheet"
+            href="/css/dark.css"
+            media="(prefers-color-scheme: dark)"
+        />
+        <link
+            rel="stylesheet"
+            href="/css/light.css"
+            media="(prefers-color-scheme: light)"
+        />
+        <!-- The main stylesheet -->
+        <link rel="stylesheet" href="/css/style.css" />
+        <link rel="stylesheet" href="/css/icons.css" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav
+            class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top"
+            id="sideNav"
+        >
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">
+                <span class="d-block d-lg-none fw-bold">Aditya Jain</span>
+                <span class="d-none d-lg-block">
+                    <picture>
+                        <source
+                            type="image/webp"
+                            srcset="
+                                img%2FAditya%20Jain%20-%20Aaditya%20Jain.webp
+                            "
+                        />
+                        <source
+                            type="image/jpeg"
+                            srcset="
+                                img%2FAditya%20Jain%20-%20Aaditya%20Jain.jpg
+                            "
+                        />
+                        <img
+                            class="
+                                img-fluid img-profile
+                                rounded-circle
+                                mx-auto
+                                mb-2
+                            "
+                            src="img/Aditya Jain - Aaditya Jain.jpg"
+                            alt="Aditya Jain - Full Stack MERN & MEVN Developer, Indore - Cyber Security Researcher"
+                            title="Aditya Jain - Full Stack MERN & MEVN Developer, Indore - Cyber Security Researcher"
+                        /> </picture
+                ></span>
+            </a>
+            <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarResponsive"
+                aria-controls="navbarResponsive"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#about"
+                            >About</a
+                        >
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#experience"
+                            >Experience</a
+                        >
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#education"
+                            >Education</a
+                        >
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#skills"
+                            >Skills</a
+                        >
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#interests"
+                            >Interests</a
+                        >
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#awards"
+                            >Awards</a
+                        >
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- Page Content-->
+        <div class="container-fluid p-0">
+            <!-- About-->
+            <section class="resume-section pt-2 pt-lg-6" id="about">
+                <div class="resume-section-content">
+                    <div class="text-center text-lg-start">
+                        <span class="d-block d-lg-none">
+                            <picture>
+                                <source
+                                    type="image/webp"
+                                    srcset="
+                                        img%2FAditya%20Jain%20-%20Aaditya%20Jain.webp
+                                    "
+                                />
+                                <source
+                                    type="image/jpeg"
+                                    srcset="
+                                        img%2FAditya%20Jain%20-%20Aaditya%20Jain.jpg
+                                    "
+                                />
+                                <img
+                                    class="
+                                        img-fluid img-profile
+                                        rounded-circle
+                                        mx-auto
+                                        mb-3
+                                        w-50
+                                    "
+                                    src="img/Aditya Jain - Aaditya Jain.jpg"
+                                    alt="Aditya Jain - Full Stack MERN & MEVN Developer, Indore - Cyber Security Researcher"
+                                    title="Aditya Jain - Full Stack MERN & MEVN Developer, Indore - Cyber Security Researcher"
+                                /> </picture
+                        ></span>
+
+                        <h1 class="mb-0">
+                            Aditya
+                            <span class="text-primary">Jain</span>
+                        </h1>
+                        <div class="subheading mb-4">
+                            Email:
+                            <a href="mailto:aadityajain.dev@gmail.com"
+                                >aadityajain.dev@gmail.com</a
+                            >,
+                            <a href="mailto:aadityajain.dev@protonmail.com"
+                                >aadityajain.dev@protonmail.com</a
+                            >
+                        </div>
+                    </div>
+                    <p class="lead mb-5">
+                        I am a highly competent IT professional with a proven
+                        track record in Full stack development, networking &
+                        cyber security. I have strong technical skills as well
+                        as excellent interpersonal skills, enabling me to
+                        interact with a wide range of clients. I am eager to be
+                        challenged in order to grow and further improve my
+                        skills. My greatest passion is in life is using my
+                        technical knowledge to solve the critical problems in
+                        order to help other peoples and organizations.
+                    </p>
+
+                    <h2 class="mb-2 h3">My Story</h2>
+                    <p class="lead mb-2">
+                        Ever since I was a little kid, Hacking has been my
+                        passion. I still remember sitting in front of my Pentium
+                        dual-core computer, with the browser open, trying to pop
+                        my first XSS alert "1337" for the very first time. As I
+                        went through the various tutorial, it was almost magic,
+                        being able to manipulate the website, just by typing in
+                        these funny little symbols. Throughout middle and high
+                        school, I latched on to any ideas for projects I could
+                        get, to learn & understand the working websites, with
+                        dozens of projects in between, I learned HTML, CSS,
+                        JavaScript, C, C++, PHP. Tearing through any books I
+                        could find on anything remotely related to Hacking, Web
+                        development, or software development. I was insatiable.
+                    </p>
+
+                    <p class="lead mb-2">
+                        This passion carried me through my education at the
+                        Indore Institute of Science and Technology. Here, there
+                        were more resources available to me than I ever could
+                        have imagined as a kid. I studied new languages,
+                        algorithms, compilers, higher mathematics, all with
+                        pretty much the same fascination that drove me as a kid.
+                        And it was here that I learned truly how much there was
+                        yet to learn.
+                    </p>
+
+                    <p class="lead mb-4">
+                        So, now, this passion remains with me. There's certainly
+                        yet more to learn, yet more problems to solve, and yet
+                        more to build. And for this, I am very grateful.
+                    </p>
+
+                    <div class="mb-5">
+                        <a
+                            class="me-3"
+                            href="https://blog.aadityajain.dev"
+                            title="Personal Blog"
+                            ><button
+                                type="button"
+                                class="btn btn-primary fw-bold"
+                            >
+                                Personal Blog
+                            </button></a
+                        >
+                        <a href="resume/index.html" title="Resume File"
+                            ><button type="button" class="btn btn-info fw-bold">
+                                My Resume
+                            </button></a
+                        >
+                    </div>
+
+                    <div class="social-icons">
+                        <a
+                            class="social-icon"
+                            href="https://www.linkedin.com/in/aadityajain-dev/"
+                            title="Linkedin Profile"
+                        >
+                            <i class="icon-linkedin2"></i>
+                        </a>
+                        <a
+                            class="social-icon"
+                            href="https://github.com/AadityaJain-Dev/"
+                            title="GitHub Profile"
+                        >
+                            <i class="icon-github"></i>
+                        </a>
+                        <a
+                            class="social-icon"
+                            href="https://gitlab.com/AadityaJain-Dev/"
+                            title="GitLab Profile"
+                        >
+                            <i class="icon-gitlab"></i>
+                        </a>
+                        <a
+                            class="social-icon"
+                            href="https://twitter.com/aadityajain_dev"
+                            title="Twitter Profile"
+                        >
+                            <i class="icon-twitter"></i>
+                        </a>
+                        <a
+                            class="social-icon"
+                            href="https://www.facebook.com/aadityajain.dev"
+                            title="Facebook Profile"
+                        >
+                            <i class="icon-facebook"></i>
+                        </a>
+                        <a
+                            class="social-icon"
+                            href="https://www.instagram.com/aadityajain.dev/"
+                            title="Instagram Profile"
+                        >
+                            <i class="icon-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Experience-->
+            <section class="resume-section" id="experience">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Experience</h2>
+                    <div
+                        class="
+                            d-flex
+                            flex-column flex-md-row
+                            justify-content-between
+                            mb-5
+                        "
+                    >
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Full Stack Web Developer</h3>
+                            <div class="subheading mb-3">RGPV Notes</div>
+                            <p>
+                                I am am responsible for the design and
+                                development of all of rgpvnotes.in web-apps &
+                                mobile apps. it was my personal project which is
+                                not used by hundreds of thousands of students
+                                for notes. I was responsible for designing,
+                                development, making APIs, back-end and
+                                maintenance.
+                            </p>
+                        </div>
+                        <div class="flex-shrink-0">
+                            <span class="text-primary"
+                                >July 2015 - Present</span
+                            >
+                        </div>
+                    </div>
+                    <div
+                        class="
+                            d-flex
+                            flex-column flex-md-row
+                            justify-content-between
+                            mb-5
+                        "
+                    >
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">
+                                Independent Security Researcher
+                            </h3>
+                            <div class="subheading mb-3">Bugcrowd</div>
+                            <p>
+                                Diagnosed vulnerabilities such as Reflected XSS,
+                                Stored XSS, ClickJacking, Insecure CORS,
+                                Misconfigured SPF record, SSRF, HTML Injection,
+                                Host Header Attack & Injection, URL
+                                Re-direction, SQL Injection. • Verify bugs using
+                                tools like Burp Suite, Nmap, Nikto, SQLMap,
+                                Wireshark, Drozer Framework.
+                            </p>
+                        </div>
+                        <div class="flex-shrink-0">
+                            <span class="text-primary"
+                                >January 2017 - Present</span
+                            >
+                        </div>
+                    </div>
+                    <div
+                        class="
+                            d-flex
+                            flex-column flex-md-row
+                            justify-content-between
+                            mb-5
+                        "
+                    >
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">
+                                Independent Security Researcher
+                            </h3>
+                            <div class="subheading mb-3">HackerOne</div>
+                            <p>
+                                Diagnosed vulnerabilities such as Reflected XSS,
+                                Stored XSS, ClickJacking, Insecure CORS,
+                                Misconfigured SPF record, SSRF, HTML Injection,
+                                Host Header Attack & Injection, URL
+                                Re-direction, SQL Injection. • Verify bugs using
+                                tools like Burp Suite, Nmap, Nikto, SQLMap,
+                                Wireshark, Drozer Framework.
+                            </p>
+                        </div>
+                        <div class="flex-shrink-0">
+                            <span class="text-primary"
+                                >January 2017 - Present</span
+                            >
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Education-->
+            <section class="resume-section" id="education">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Education</h2>
+                    <div
+                        class="
+                            d-flex
+                            flex-column flex-md-row
+                            justify-content-between
+                            mb-5
+                        "
+                    >
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">
+                                Indore Institute of Science and Technology
+                            </h3>
+                            <div class="subheading mb-1">
+                                Bachelor of Engineering
+                            </div>
+                            <div>(Computer Science)</div>
+                        </div>
+                        <div class="flex-shrink-0">
+                            <span class="text-primary">2015 - 2019</span>
+                        </div>
+                    </div>
+                    <div
+                        class="
+                            d-flex
+                            flex-column flex-md-row
+                            justify-content-between
+                        "
+                    >
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">
+                                Shri Gujrati Samaj A.M.N.E.M school, Indore
+                            </h3>
+                            <div class="subheading mb-5">
+                                Higher Secondary Certificate
+                            </div>
+                        </div>
+                        <div class="flex-shrink-0">
+                            <span class="text-primary">2015</span>
+                        </div>
+                    </div>
+                    <div
+                        class="
+                            d-flex
+                            flex-column flex-md-row
+                            justify-content-between
+                        "
+                    >
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">
+                                Shri Gujrati Samaj A.M.N.E.M school, Indore
+                            </h3>
+                            <div class="subheading mb-5">
+                                Secondary School Certificate
+                            </div>
+                        </div>
+                        <div class="flex-shrink-0">
+                            <span class="text-primary">2013</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Skills-->
+            <section class="resume-section" id="skills">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Skills</h2>
+                    <div class="subheading mb-3">
+                        Programming Languages & Tools
+                    </div>
+                    <ul class="list-inline dev-icons">
+                        <li class="list-inline-item" title="HTML5">
+                            <i class="icon-html5"></i>
+                        </li>
+                        <li class="list-inline-item" title="CSS">
+                            <i class="icon-css31"></i>
+                        </li>
+                        <li class="list-inline-item" title="Java Script">
+                            <i class="icon-javascript"></i>
+                        </li>
+                        <li class="list-inline-item" title="Bootstrap">
+                            <i class="icon-bootstrap"></i>
+                        </li>
+                        <li class="list-inline-item" title="Angular">
+                            <i class="icon-angular"></i>
+                        </li>
+                        <li class="list-inline-item" title="NodeJs">
+                            <i class="icon-node-dot-js"></i>
+                        </li>
+                        <li class="list-inline-item" title="Wordpress">
+                            <i class="icon-wordpress"></i>
+                        </li>
+                        <li class="list-inline-item" title="Blogger">
+                            <i class="icon-blogger2"></i>
+                        </li>
+                        <li
+                            class="list-inline-item"
+                            title="Node Package Manager"
+                        >
+                            <i class="icon-npm"></i>
+                        </li>
+                        <li class="list-inline-item" title="PHP">
+                            <i class="icon-php"></i>
+                        </li>
+                        <li class="list-inline-item" title="Python">
+                            <i class="icon-python"></i>
+                        </li>
+                        <li
+                            class="list-inline-item"
+                            title="Amazon Web Services"
+                        >
+                            <i class="icon-amazonaws"></i>
+                        </li>
+                        <li class="list-inline-item" title="React">
+                            <i class="icon-react"></i>
+                        </li>
+                        <li class="list-inline-item" title="Tailwind">
+                            <i class="icon-tailwindcss"></i>
+                        </li>
+                    </ul>
+                    <div class="subheading mb-3">Workflow</div>
+                    <ul class="fa-ul mb-0 ps-0">
+                        <li>
+                            <i class="fa-li icon-checkmark"></i>
+                            Mobile-First, Responsive Design
+                        </li>
+                        <li>
+                            <i class="fa-li icon-checkmark"></i>
+                            Cross Browser Testing &amp; Debugging
+                        </li>
+                        <li>
+                            <i class="fa-li icon-checkmark"></i>
+                            Cross Functional Testing
+                        </li>
+                        <li>
+                            <i class="fa-li icon-checkmark"></i>
+                            Agile Development & Scrum
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Interests-->
+            <section class="resume-section" id="interests">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Interests</h2>
+                    <p>
+                        Apart from being a UX/UI developer & a ethical hacker, I
+                        enjoy gardening, exercising & being updated about the
+                        latest trends in tech. I am also a contributor to the
+                        android development community & a gamer.
+                    </p>
+                    <p class="mb-0">
+                        I also follow a number of fantasy, sci-fi, crime drama,
+                        anime movies & tv series. Apart from all this I also
+                        have a few youtube channels where I occasionally post
+                        videos.
+                    </p>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Awards-->
+            <section class="resume-section" id="awards">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Awards & Certifications</h2>
+                    <ul class="fa-ul mb-0 ps-0">
+                        <li>
+                            <span class="fa-li"
+                                ><i class="fas icon-trophy text-warning"></i
+                            ></span>
+                            Rewarded by Reliance Jio for Reporting Critical
+                            Vulnerabilities.
+                        </li>
+                        <li>
+                            <span class="fa-li"
+                                ><i class="fas icon-trophy text-warning"></i
+                            ></span>
+                            Rewarded by India's largest online assessment
+                            platform for reporting critical account takeover
+                            Vulnerability.
+                        </li>
+                        <li>
+                            <span class="fa-li"
+                                ><i class="fas icon-trophy text-warning"></i
+                            ></span>
+                            Winner - Mozilla Beta Testing BugHunter, 2019.
+                        </li>
+                        <li>
+                            <span class="fa-li"
+                                ><i class="fas icon-trophy text-warning"></i
+                            ></span>
+                            Top 10 in IIST 2018 hackathon.
+                        </li>
+                        <li>
+                            <span class="fa-li"
+                                ><i class="fas icon-trophy text-warning"></i
+                            ></span>
+                            1<sup>st</sup> runner-up in Navarachanaa 2017
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+    </body>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+        async
+        src="https://www.googletagmanager.com/gtag/js?id=G-F79D2VKL4B"
+    ></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-F79D2VKL4B');
+    </script>
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org/",
+            "@type": "Person",
+            "name": "Aditya Jain",
+            "url": "https://www.aadityajain.dev/",
+            "image": "https://www.aadityajain.dev/img/Aditya%20Jain%20-%20Aaditya%20Jain.jpg",
+            "sameAs": [
+                "https://www.facebook.com/aadityajain.dev",
+                "https://twitter.com/aadityajain_dev",
+                "https://www.instagram.com/aadityajain.dev/",
+                "https://www.linkedin.com/in/aadityajain-dev/",
+                "https://www.aadityajain.dev/",
+                "https://github.com/AadityaJain-Dev/",
+                "https://gitlab.com/AadityaJain-Dev/"
+            ],
+            "jobTitle": "Full Stack MERN & MEVN Developer",
+            "worksFor": {
+                "@type": "Organization",
+                "name": "Aditya Jain"
+            }
+        }
+    </script>
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('/sw.js');
+            });
+        }
+    </script>
+
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+</html>
