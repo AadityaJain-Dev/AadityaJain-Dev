@@ -15,7 +15,7 @@ I am a highly competent IT professional with a proven track record in Full stack
 - Personal Website: https://www.aadityajain.dev
 - Twitter: https://twitter.com/aadityajain_dev
 - Facebook: https://www.facebook.com/aadityajain.dev
-- Email: aadityajain.dev@protonmail.com
+- Email: hey@aadityajain.dev
 
 ### [Personal Blog](https://blog.aadityajain.dev/)
 
