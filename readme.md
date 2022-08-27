@@ -7,10 +7,10 @@ I am a highly competent IT professional with a proven track record in Full stack
 ### My Stats
 
 
-<img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=aadityajain-dev&hide_border=false" />      <img align="center" src="https://github-readme-stats.vercel.app/api?username=aadityajain-dev&count_private=true&show_icons=true" />
+<img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=aadityajain-dev&langs_count=3" />   <img align="center" src="https://github-readme-stats.vercel.app/api?username=aadityajain-dev&count_private=true&show_icons=true" />
 <br /><br />
-<img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=aadityajain-dev&langs_count=3" /> 
 
+<img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=aadityajain-dev&hide_border=false" />
 ### 📫 Where to find me
 
 - Linkedin: https://www.linkedin.com/in/aadityajain-dev/
